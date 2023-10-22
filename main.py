@@ -28,7 +28,7 @@ def main():
     #     print("Saved")
     #     recorder.delete()
 
-    # openai.api_key = "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"
+    # openai.api_key = ""
     # audio_file = open(r"E:\GitHub\suicidal-speech-detection\audio_recording.wav", "rb")
     # transcript = openai.Audio.transcribe("whisper-1", audio_file)
     # print(transcript)
