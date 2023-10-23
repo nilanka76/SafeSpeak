@@ -12,6 +12,10 @@ MODEL_SAVE_PATH = r"E:\GitHub\suicidal-speech-detection\distilbert_base_uncased"
 def main():
     r = sr.Recognizer()
     my_text = ""
+
+    # with sr.AudioFile("recorded_audio.wav") as source:
+    #     audio = r.record(source)
+
     with sr.Microphone() as source:
         try:
             r.adjust_for_ambient_noise(source, duration=0.3)
