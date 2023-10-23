@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Suicidal Speech Recognition</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 400px;
+        }
+
+        form {
+            margin: 20px 0;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+    </style>
+    <script type="text/javascript">
+        function clearPredictedText() {
+            document.getElementById("predicted-text").textContent = "";
+            document.getElementById("text").textContent = "";
+            document.getElementById("start").textContent = "Listening...";
+        }
+    </script>
+</head>
+<body>
+    <h1>Suicidal Speech Recognition</h1>
+    <div class="container">
+        <form method="POST" onsubmit="clearPredictedText()">
+            <input type="submit" value="Start Recording">
+        </form>
+        <p id="start">{{ start }}</p>
+        <p id="text">{{ text }}</p>
+        <p id="predicted-text">{{ predicted_text }}</p>
+    </div>
+</body>
+</html>
