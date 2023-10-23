@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe9c2f5-002a-4215-a7bb-1f40fb3e32f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/distilbert_base_uncased/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distilbert_base_uncased/pytorch_model.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distilbert_base_uncased/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distilbert_base_uncased/tokenizer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distilbert_base_uncased/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distilbert_base_uncased/training_args.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distilbert_base_uncased/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio_recording.wav" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
